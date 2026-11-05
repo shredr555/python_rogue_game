@@ -1,0 +1,570 @@
+{
+  "current_level": 1,
+  "enemy_probability": 0.35,
+  "item_probability": 0.5,
+  "hero": {
+    "max_health": 100,
+    "current_health": 12,
+    "active_effect": [],
+    "agility": 10,
+    "strength": 10,
+    "gold": 20,
+    "weapon": null,
+    "position": [
+      59,
+      17
+    ],
+    "backpack": {
+      "items": [
+        {
+          "type": "TREASURE",
+          "subtype": "dungeon treasure",
+          "health": 0,
+          "max_health": 0,
+          "agility": 0,
+          "strength": 0,
+          "price": 10,
+          "duration": 0,
+          "position": [
+            12,
+            10
+          ],
+          "color_pair": 3
+        },
+        {
+          "type": "AGILITY_SCROLL",
+          "subtype": "scroll of agility",
+          "health": 0,
+          "max_health": 0,
+          "agility": 10,
+          "strength": 0,
+          "price": 0,
+          "duration": 0,
+          "position": [
+            36,
+            16
+          ],
+          "color_pair": 2
+        }
+      ]
+    }
+  },
+  "layer": {
+    "width": 80,
+    "height": 24,
+    "target_cells": 9,
+    "rows": 3,
+    "cols": 3,
+    "rooms": [
+      {
+        "x": 11,
+        "y": 1,
+        "width": 13,
+        "height": 5,
+        "is_start": true,
+        "is_finish": false,
+        "is_visited": true,
+        "visible_area": []
+      },
+      {
+        "x": 27,
+        "y": 2,
+        "width": 10,
+        "height": 3,
+        "is_start": false,
+        "is_finish": false,
+        "is_visited": false,
+        "visible_area": []
+      },
+      {
+        "x": 51,
+        "y": 2,
+        "width": 15,
+        "height": 3,
+        "is_start": false,
+        "is_finish": false,
+        "is_visited": false,
+        "visible_area": []
+      },
+      {
+        "x": 10,
+        "y": 10,
+        "width": 7,
+        "height": 3,
+        "is_start": false,
+        "is_finish": false,
+        "is_visited": true,
+        "visible_area": []
+      },
+      {
+        "x": 31,
+        "y": 9,
+        "width": 7,
+        "height": 4,
+        "is_start": false,
+        "is_finish": false,
+        "is_visited": false,
+        "visible_area": []
+      },
+      {
+        "x": 55,
+        "y": 10,
+        "width": 3,
+        "height": 3,
+        "is_start": false,
+        "is_finish": false,
+        "is_visited": false,
+        "visible_area": []
+      },
+      {
+        "x": 3,
+        "y": 16,
+        "width": 7,
+        "height": 4,
+        "is_start": false,
+        "is_finish": false,
+        "is_visited": true,
+        "visible_area": []
+      },
+      {
+        "x": 26,
+        "y": 16,
+        "width": 22,
+        "height": 3,
+        "is_start": false,
+        "is_finish": false,
+        "is_visited": true,
+        "visible_area": []
+      },
+      {
+        "x": 51,
+        "y": 16,
+        "width": 23,
+        "height": 3,
+        "is_start": false,
+        "is_finish": true,
+        "is_visited": true,
+        "visible_area": []
+      }
+    ],
+    "corridors": [
+      {
+        "segments": [
+          [
+            [
+              10,
+              18
+            ],
+            [
+              11,
+              18
+            ]
+          ],
+          [
+            [
+              11,
+              18
+            ],
+            [
+              24,
+              18
+            ]
+          ],
+          [
+            [
+              24,
+              18
+            ],
+            [
+              24,
+              17
+            ]
+          ],
+          [
+            [
+              24,
+              17
+            ],
+            [
+              25,
+              17
+            ]
+          ]
+        ],
+        "is_visited": true
+      },
+      {
+        "segments": [
+          [
+            [
+              34,
+              13
+            ],
+            [
+              34,
+              14
+            ]
+          ],
+          [
+            [
+              34,
+              14
+            ],
+            [
+              34,
+              14
+            ]
+          ],
+          [
+            [
+              34,
+              14
+            ],
+            [
+              37,
+              14
+            ]
+          ],
+          [
+            [
+              37,
+              14
+            ],
+            [
+              37,
+              15
+            ]
+          ]
+        ],
+        "is_visited": false
+      },
+      {
+        "segments": [
+          [
+            [
+              48,
+              17
+            ],
+            [
+              49,
+              17
+            ]
+          ],
+          [
+            [
+              49,
+              17
+            ],
+            [
+              49,
+              17
+            ]
+          ],
+          [
+            [
+              49,
+              17
+            ],
+            [
+              49,
+              17
+            ]
+          ],
+          [
+            [
+              49,
+              17
+            ],
+            [
+              50,
+              17
+            ]
+          ]
+        ],
+        "is_visited": true
+      },
+      {
+        "segments": [
+          [
+            [
+              56,
+              13
+            ],
+            [
+              56,
+              14
+            ]
+          ],
+          [
+            [
+              56,
+              14
+            ],
+            [
+              62,
+              14
+            ]
+          ],
+          [
+            [
+              62,
+              14
+            ],
+            [
+              62,
+              14
+            ]
+          ],
+          [
+            [
+              62,
+              14
+            ],
+            [
+              62,
+              15
+            ]
+          ]
+        ],
+        "is_visited": false
+      },
+      {
+        "segments": [
+          [
+            [
+              17,
+              6
+            ],
+            [
+              17,
+              7
+            ]
+          ],
+          [
+            [
+              17,
+              7
+            ],
+            [
+              13,
+              7
+            ]
+          ],
+          [
+            [
+              13,
+              7
+            ],
+            [
+              13,
+              8
+            ]
+          ],
+          [
+            [
+              13,
+              8
+            ],
+            [
+              13,
+              9
+            ]
+          ]
+        ],
+        "is_visited": true
+      },
+      {
+        "segments": [
+          [
+            [
+              32,
+              5
+            ],
+            [
+              32,
+              6
+            ]
+          ],
+          [
+            [
+              32,
+              6
+            ],
+            [
+              34,
+              6
+            ]
+          ],
+          [
+            [
+              34,
+              6
+            ],
+            [
+              34,
+              7
+            ]
+          ],
+          [
+            [
+              34,
+              7
+            ],
+            [
+              34,
+              8
+            ]
+          ]
+        ],
+        "is_visited": false
+      },
+      {
+        "segments": [
+          [
+            [
+              58,
+              5
+            ],
+            [
+              58,
+              6
+            ]
+          ],
+          [
+            [
+              58,
+              6
+            ],
+            [
+              56,
+              6
+            ]
+          ],
+          [
+            [
+              56,
+              6
+            ],
+            [
+              56,
+              8
+            ]
+          ],
+          [
+            [
+              56,
+              8
+            ],
+            [
+              56,
+              9
+            ]
+          ]
+        ],
+        "is_visited": false
+      },
+      {
+        "segments": [
+          [
+            [
+              9,
+              11
+            ],
+            [
+              8,
+              11
+            ]
+          ],
+          [
+            [
+              8,
+              11
+            ],
+            [
+              6,
+              11
+            ]
+          ],
+          [
+            [
+              6,
+              11
+            ],
+            [
+              6,
+              14
+            ]
+          ],
+          [
+            [
+              6,
+              14
+            ],
+            [
+              6,
+              15
+            ]
+          ]
+        ],
+        "is_visited": true
+      }
+    ],
+    "exit": [
+      59,
+      17
+    ]
+  },
+  "enemies": [
+    {
+      "type": "SNAKE_MAGE",
+      "current_health": 35,
+      "max_health": 35,
+      "agility": 20,
+      "strength": 10,
+      "hostility": 6,
+      "position": [
+        29,
+        3
+      ],
+      "color_pair": 4,
+      "resting": false,
+      "invisible": false,
+      "first_attack_miss": true,
+      "has_moved_this_turn": false
+    },
+    {
+      "type": "ZOMBIE",
+      "current_health": 60,
+      "max_health": 60,
+      "agility": 5,
+      "strength": 12,
+      "hostility": 4,
+      "position": [
+        58,
+        14
+      ],
+      "color_pair": 2,
+      "resting": false,
+      "invisible": false,
+      "first_attack_miss": true,
+      "has_moved_this_turn": false
+    }
+  ],
+  "items": [
+    {
+      "type": "WEAPON_ROCK",
+      "subtype": "dangerous stone",
+      "health": 0,
+      "max_health": 0,
+      "agility": 0,
+      "strength": 20,
+      "price": 0,
+      "duration": 0,
+      "position": [
+        35,
+        3
+      ],
+      "color_pair": 4
+    }
+  ]
+}
